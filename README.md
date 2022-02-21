@@ -76,10 +76,15 @@ The above analysis does not reflect any positivity bias, however mere percentage
 
 Instead of calculating the percentages of 5-star ratings, comparing the **average star rating** for vine and non-vine reviews might be **a better measure of the positivity bias.**
 
+<br>
+
+**Additional Analysis for positivity bias: **<br>
+
 <kbd>
 
 <img width="1253" alt="Screen Shot 2022-02-20 at 11 57 52 PM" src="https://user-images.githubusercontent.com/90424752/154912257-df5597be-8649-43c3-88cc-f0ef5cc4c494.png">
 
 </kbd>
+<br> <br>
 
 This additional step for positivity bias clearly indicates that on an average vine reviews contain more 4 and 5 star reviews than non-vine reviews. And hence, there is a greater chance that the vine reviews might be positively biased.
