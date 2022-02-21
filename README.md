@@ -55,7 +55,6 @@ The above image shows the total number of paid and unpaid reviews among the pet 
 
 <kbd>
 
-
 <img width="1170" alt="Screen Shot 2022-02-20 at 12 38 20 PM" src="https://user-images.githubusercontent.com/90424752/154880405-ae0bcaa7-4e8d-455e-91e5-39b2b95bfe0d.png">
 
   
@@ -76,3 +75,11 @@ The dataset was first filtered for products with more than 20 votes. Then it was
 The above analysis does not reflect any positivity bias, however mere percentages can not accurately assess whether there is a positivity bias in the votes of Vine program.
 
 Instead of calculating the percentages of 5-star ratings, comparing the **average star rating** for vine and non-vine reviews might be **a better measure of the positivity bias.**
+
+<kbd>
+
+<img width="1253" alt="Screen Shot 2022-02-20 at 11 57 52 PM" src="https://user-images.githubusercontent.com/90424752/154912257-df5597be-8649-43c3-88cc-f0ef5cc4c494.png">
+
+</kbd>
+
+This additional step for positivity bias clearly indicates that on an average vine reviews contain more 4 and 5 star reviews than non-vine reviews. And hence, there is a greater chance that the vine reviews might be positively biased.
