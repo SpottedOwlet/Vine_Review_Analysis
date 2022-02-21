@@ -78,7 +78,8 @@ Instead of calculating the percentages of 5-star ratings, comparing the **averag
 
 <br>
 
-**Additional Analysis for positivity bias: **
+<p align=center> **Additional Analysis for positivity bias:** </p>
+
 <br>
 
 <kbd>
