@@ -19,11 +19,60 @@ The ETL process to extract the dataset, transform the data, connect to an AWS RD
 
 
 <h2> <p align=center>Results </p></h2>
+<br>
 
-There is a bulleted list that addresses the three questions for unpaid and paid program reviews (7 pt)
+- **Total Number of Reviews:**
 
+  <h4><p align=center> Paid vs Unpaid </p></h4>
+
+<kbd>
+  <img width="1174" alt="Screen Shot 2022-02-20 at 12 37 35 PM" src="https://user-images.githubusercontent.com/90424752/154878807-aca8cc3d-c3a1-435d-a37d-a51dad6a0a54.png">
+    
+</kbd>
+<br>
+<br>
+
+The above image shows the total number of paid and unpaid reviews among the pet products Vine reviews dataset. <br>
+
+<br>
+
+- **Total Number of 5 start reviews:**
+
+<h4><p align=center> Paid vs Unpaid </p></h4>
+
+<kbd>
+
+  <img width="1174" alt="Screen Shot 2022-02-20 at 12 37 54 PM" src="https://user-images.githubusercontent.com/90424752/154879330-3350ffc3-e070-4780-86e6-7609f06a6caa.png">
+
+  
+</kbd>
+<br>
+<br>
+
+- **Percentage of 5 start reviews:**
+
+<h4><p align=center> Paid vs Unpaid </p></h4>
+
+<kbd>
+
+
+<img width="1170" alt="Screen Shot 2022-02-20 at 12 38 20 PM" src="https://user-images.githubusercontent.com/90424752/154880405-ae0bcaa7-4e8d-455e-91e5-39b2b95bfe0d.png">
+
+  
+</kbd>
+<br>
+<br>
 
 <h2> <p align=center>Summary </p></h2>
 
-The summary states whether or not there is bias, and the results support this statement (2 pt)
-An additional analysis is recommended to support the statement 
+The dataset was first filtered for products with more than 20 votes. Then it was further filtered for paid and unpaid reviews. Then the percentages were found for vine and non-vine reviews. 
+
+**Observation :** <br>
+
+- The paid or vine reviews were only 162 out of total 35,730 reviews cosidered for this analysis.
+- Although small in number, out of the total vine reviews, 38.88% reviews were 5-star reviews.
+- From the unpaid or non-vine reviews, the percentage of 5-star reviews was 54.65%.
+
+The above analysis does not reflect any positivity bias, however mere percentages can not accurately assess whether there is a positivity bias in the votes of Vine program.
+
+Instead of calculating the percentages of 5-star ratings, comparing the **average star rating** for vine and non-vine reviews might be **a better measure of the positivity bias.**
